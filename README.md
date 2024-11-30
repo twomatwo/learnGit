@@ -1,6 +1,6 @@
 # learn Git & Github on fireship.io
 
-## git started
+## got started
 
 ### git init
 
@@ -42,3 +42,9 @@ Create a new remote: `git remote add origin <url-to-your-repo>`
 
 `orgin` is the name of the remote; `master` is the name of the branch.
 `-u` is optional to set origin to upstream remote (needed when using pull)
+
+### git fatch/merge
+
+When some updates are made on github (orgin/master), there're two ways to sync the update to local. Fetch and merge is one of them.
+
+`git fetch` and then `git merge origin/master`
