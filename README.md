@@ -40,10 +40,10 @@ Create a new remote: `git remote add origin <url-to-your-repo>`
 
 `git push origin master -u`
 
-`orgin` is the name of the remote; `master` is the name of the branch.
+`origin` is the name of the remote; `master` is the name of the branch.
 `-u` is optional to set origin to upstream remote (needed when using pull)
 
-### git fatch/merge
+### git fetch/merge
 
 When some updates are made on github (orgin/master), there're two ways to sync the update to local. Fetch and merge is one of them.
 
