@@ -48,3 +48,9 @@ Create a new remote: `git remote add origin <url-to-your-repo>`
 When some updates are made on github (orgin/master), there're two ways to sync the update to local. Fetch and merge is one of them.
 
 `git fetch` and then `git merge origin/master`
+
+### git pull
+
+pull = fetch + merge
+
+`git pull origin master` Since we used `-u` in push command,  `git pull` is enough.
