@@ -1,4 +1,6 @@
-# Git & Github
+# learn Git & Github on fireship.io
+
+## got started
 
 ### git init
 
@@ -25,3 +27,18 @@ The opposite of `git add` is `git reset`.
 Use `git log` to check commit information.
 
 `git commit -a -m "some messages"` Add files and commit in a single command.
+
+## remote
+
+### git remote
+
+List current remote info: `git remote -v`
+
+Create a new remote: `git remote add origin <url-to-your-repo>` 
+
+### git push
+
+`git push origin master -u`
+
+`orgin` is the name of the remote; `master` is the name of the branch.
+`-u` is optional to set origin to upstream remote (needed when using pull)
