@@ -1,6 +1,6 @@
 # learn Git & Github on fireship.io
 
-## got started
+## git started
 
 ### git init
 
