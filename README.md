@@ -60,3 +60,19 @@ pull = fetch + merge
 `git clone <url-to-repo> <folder-name>`
 
 Can cd into the folder and use `git pull` to get the newest code from the repo.
+
+## collaboration
+
+### git branch
+
+`git branch` list all local branches.
+
+`git branch -M <new-name>` change the name of the current branch.
+
+`git branch <new-branch-name>` create a new branch.
+
+`git branch -d <branch-name>` delete a branch. `-d` delete if merged. `-D` force delete.
+
+### git checkout
+
+
