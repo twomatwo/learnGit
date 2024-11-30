@@ -54,3 +54,9 @@ When some updates are made on github (orgin/master), there're two ways to sync t
 pull = fetch + merge
 
 `git pull origin master` Since we used `-u` in push command,  `git pull` is enough.
+
+### git clone
+
+`git clone <url-to-repo> <folder-name>`
+
+Can cd into the folder and use `git pull` to get the newest code from the repo.
