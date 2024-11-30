@@ -76,3 +76,11 @@ Can cd into the folder and use `git pull` to get the newest code from the repo.
 ### git checkout
 
 `git checkout -` go to the last branch.
+
+### Merge Conflict
+
+When merge conflict happens, `git diff` to see the difference. `git merge --abort` to go back to before merge.
+
+With vscode UI, just choose the right option and make a new add+commit.
+
+### Fork
