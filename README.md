@@ -75,4 +75,4 @@ Can cd into the folder and use `git pull` to get the newest code from the repo.
 
 ### git checkout
 
-
+`git checkout -` go to the last branch.
